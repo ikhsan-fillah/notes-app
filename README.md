@@ -6,7 +6,7 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-18-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Cloud-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-deployed-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
@@ -19,7 +19,7 @@
 | Branch | Deskripsi | Platform Deploy |
 |--------|-----------|----------------|
 | [`be`](../../tree/be) | Backend REST API (Node.js + Express) | Google App Engine |
-| [`fe`](../../tree/fe) | Frontend (React + Vite) | Google Cloud Run |
+| [`fe`](../../tree/fe) | Frontend (Vue 3 + Vite) | Google Cloud Run |
 
 ---
 
@@ -53,7 +53,7 @@
 │  ┌──────────────────┐     ┌─────────────────────┐  │
 │  │   Cloud Run      │────▶│    App Engine        │  │
 │  │  (Frontend/FE)   │     │   (Backend/BE)       │  │
-│  │   React + Vite   │     │  Node.js + Express   │  │
+│  │  Vue 3 + Vite    │     │  Node.js + Express   │  │
 │  └──────────────────┘     └──────────┬──────────┘  │
 │                                      │              │
 │                            ┌─────────▼──────────┐  │
