@@ -2,9 +2,9 @@
 
 # 🎨 Notes App — Frontend
 
-### Web App with React + Vite, deployed on Google Cloud Run
+### Web App with Vue 3 + Vite, deployed on Google Cloud Run
 
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Cloud Run](https://img.shields.io/badge/Cloud_Run-deployed-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-nginx-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -20,10 +20,10 @@
 ```
 fe/
 ├── src/
-│   ├── components/       # Komponen React
-│   ├── pages/            # Halaman aplikasi
+│   ├── components/       # Komponen Vue
+│   ├── views/            # Halaman aplikasi
 │   ├── services/         # API calls ke backend
-│   └── App.jsx           # Root component
+│   └── App.vue           # Root component
 ├── public/               # Static assets
 ├── Dockerfile            # Multi-stage build (nginx)
 ├── .env.production       # URL backend production
