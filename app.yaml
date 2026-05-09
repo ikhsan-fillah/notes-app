@@ -1,0 +1,16 @@
+runtime: nodejs22
+
+env: standard
+
+instance_class: F1
+
+automatic_scaling:
+  max_instances: 5
+
+env_variables:
+  DB_HOST: "34.172.113.167"
+  DB_USER: "admin"
+  DB_PASS: "mypassword"
+  DB_NAME: "notes_123230219"
+  DB_PORT: "3306"
+  PORT: "8080"
